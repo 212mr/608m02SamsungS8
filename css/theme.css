@@ -1,0 +1,171 @@
+body{
+	background-color:black;
+	font-family: 'Poppins', sans-serif;
+}
+
+header{
+	/*background-color: darkblue;*/
+	/*color:white;*/
+	/*padding:10px;*/
+	position: fixed;
+	/*background-color: white;*/
+	width: 100%;
+	/*margin-top: -2px;*/
+	z-index: +3;
+	margin-left: 30px;
+
+}
+
+
+nav ul li{
+	color: white;
+	display: inline;
+	margin-right: 40px;
+	float: right;
+}
+
+header h1,
+header p {
+	margin:0;
+}
+
+div.transtext{
+	width:60%;
+}
+
+
+
+.transtext dl:after{
+	content:'';
+	display:table;
+	clear:both;
+}
+
+.transtext dt{
+	font-weight: bold;
+	width: 10em;
+	text-align: right;
+	padding-right: 1em;
+	float: left;
+	clear:left;
+}
+
+.transtext dd{
+	font-family: 'Open Sans', sans-serif;
+	width:calc(100% - 11em);
+	float:left;
+	margin:0;
+}
+
+.card dl:after{
+	content:'';
+	display:table;
+	clear:both;
+}
+
+.card dt{
+	font-weight: bold;
+	width: 10em;
+	text-align: right;
+	padding-right: 1em;
+	float: left;
+	clear:left;
+}
+
+.card dd{
+	width:calc(100% - 10em);
+	float:left;
+	margin:0;
+}
+
+div.table{
+	font-family: 'Open Sans', sans-serif;
+	margin: 60px auto;
+	width: 80%;
+
+}
+
+table{
+	border-width:4px;
+	border-style:dotted none;
+	line-height: 1.6em;
+	color: white;
+}
+
+tr td{
+	padding: 30px 60px;
+	text-align:center;
+	vertical-align: top;
+}
+
+table.smalltable{
+	font-size: 1.2em;
+	border: 0 none;
+	line-height: 1.4em;
+	color: white;
+	width: 100%;
+}
+
+.perfect{
+	color: white;
+	text-align: center;
+	width: 76%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.perfect{
+	margin-bottom: 60px;
+}
+
+p.perfect{
+	font-family: 'Open Sans', sans-serif;
+	line-height: 2em;
+	/*text-align: left;*/
+}
+
+div.shopping{
+	color: white;
+	line-height: 3em;
+	margin-top: 60px;
+}
+
+span.price{
+	font-size: 1.8em;
+	/*font-weight: 600;*/
+}
+
+button{
+	font-size: 1em;
+	padding: 15px 32px;
+	border: 1px solid white;
+	border-radius: 12px;
+	cursor: pointer;
+	color: white;
+	background-color: #0c0c0d;
+	text-decoration:none;
+	margin-bottom: 60px;
+}
+
+button>a{
+	text-decoration: none;
+}
+
+button:hover{
+	color: black;
+	background-color: white;
+	text-decoration: none;
+}
+
+button>a:hover{
+	text-decoration: none;
+}
+
+p.narrow{
+	width:50%;
+	font-family: 'Open Sans', sans-serif;
+}
+
+p>a{
+	color: white;
+}
